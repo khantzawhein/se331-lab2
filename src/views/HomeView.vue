@@ -41,6 +41,7 @@ const events = ref<Event[]>([
 </script>
 
 <template>
+  <h1>Events for Good</h1>
   <div class="home">
     <div class="events">
       <div class="event-item" v-for="event in events" :key="event.id">
@@ -57,6 +58,10 @@ const events = ref<Event[]>([
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+h1 {
+  text-align: center;
 }
 
 .event-item {

@@ -5,7 +5,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <div id="layout">
     <header>
-      <h1>Events for Good</h1>
+
       <div class="wrapper">
         <nav>
           <RouterLink to="/" exact>Home</RouterLink> |

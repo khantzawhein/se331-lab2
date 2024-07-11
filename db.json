@@ -32,6 +32,17 @@
       "time": "11:00",
       "petsAllowed": false,
       "organizer": "Carey Wales"
+    },
+    {
+      "id": 1029384,
+      "category": "education",
+      "title": "Book Drive",
+      "description": "Donate your old books to the local library.",
+      "location": "Dewey Decimal",
+      "date": "April 30, 2022",
+      "time": "09:00",
+      "petsAllowed": false,
+      "organizer": "Khant"
     }
   ]
 }

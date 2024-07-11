@@ -5,6 +5,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <div id="layout">
     <header>
+      <h1>Events for Good</h1>
       <div class="wrapper">
         <nav>
           <RouterLink to="/" exact>Home</RouterLink> |
@@ -17,7 +18,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <RouterView />
 </template>
 
-<style scoped>
+<style>
 #layout {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -25,14 +26,21 @@ import { RouterLink, RouterView } from 'vue-router'
   color: #2c3e50;
   text-align: center;
 }
+
 nav {
   padding: 30px;
 }
+
 nav a {
   font-weight: bold;
   color: #2c3e50;
 }
+
 nav a.router-link-exact-active {
   color: #42b983;
+}
+
+h2 {
+  font-size: 20px;
 }
 </style>
